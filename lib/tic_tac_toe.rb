@@ -17,7 +17,20 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+#Converts user's string input to an integer and subtracts one 
+#The board contains spaces 1-9 but he indexes are 0-8
 def input_to_index(user_input)
   user_input.to_i - 1 
 end
 
+def move(board, index, player_charcter)
+  board[index] = player_charcter
+end
+
+#Checks to see if the index on the board is currently occupied.
+def position_taken?(board, index)
+  !(board[index].nil? || board[index] == " ")
+end
+
+def valid_move?(board, index)
+  index.between(0,8) && !position_taken?(board,index)
