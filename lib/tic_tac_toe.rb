@@ -32,8 +32,10 @@ def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
-#
+#Checks the index position on board and if the position is nbot taken will return true.
 def valid_move?(board, index)
   index.between(0,8) && !position_taken?(board,index)
 end
 
+def turn(board)
+  puts 
