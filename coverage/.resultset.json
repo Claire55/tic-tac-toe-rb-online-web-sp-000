@@ -2,9 +2,27 @@
   "RSpec": {
     "coverage": {
       "/home/clairebullock55/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
-
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        null,
+        null
       ]
     },
-    "timestamp": 1590757463
+    "timestamp": 1590757473
   }
 }
